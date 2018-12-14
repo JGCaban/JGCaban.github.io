@@ -1,0 +1,16 @@
+:root {
+    --red: #db3236;
+    --orange: orange;
+    --yellow: #f4c20d;
+    --green: #3cba54;
+    --aqua: #00FFFF;
+    --blue: #4885ed; 
+    --purple: purple;
+    --brown: brown;
+    --grey: grey;
+    --black: black;
+
+    --font-one: 'Monoton', cursive;
+    --font-two: 'Chakra Petch', sans-serif;
+    --font-three: 'Playfair Display', serif;
+}

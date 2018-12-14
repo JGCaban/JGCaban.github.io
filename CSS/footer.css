@@ -1,0 +1,53 @@
+.inner {
+    text-align: center;
+    align-content: center;
+    color: firebrick;
+}
+
+#footerName {
+    color: #4d4d4d;
+    display: block;
+    font-family: var(--font-three);
+    font-style: italic;
+    font-weight: bolder;
+    margin: 0 0 1em;
+}
+
+#footerEmail {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#footerPhone {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.facebook {
+    list-style: none;
+}
+.facebook-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 30px; 
+    margin-left: -2px;
+}
+
+.linkedin {
+    list-style: none;
+}
+.linkedin-icon {
+    width: 28px;
+    height: 25px;
+    margin-right: 30px; 
+    margin-left: 1px;
+}
+
+.copyright {
+    font-size: 10px;
+    font-family: var(--font-three);
+}
+
+

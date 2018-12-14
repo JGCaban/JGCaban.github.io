@@ -1,0 +1,5 @@
+.h2, h2 {
+    text-align: center;
+    font-family: var(--font-two);
+    font-size: 2.5rem;
+}

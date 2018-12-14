@@ -1,0 +1,16 @@
+.jumbotron {
+    background: url(https://cdn.hipwallpaper.com/i/52/89/wYxDr1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 0.5em 0.5em 0.5em var(--black);
+    text-align: center;
+}
+
+.display-4 {
+    font-family: var(--font-one)
+}
+
+.lead {
+    font-family: var(--font-two)
+}
