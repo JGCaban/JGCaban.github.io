@@ -15,32 +15,25 @@
 <body>
 
   <!--Navbar Section-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
     <a class="navbar-brand" href="#">Jose Caban</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Main <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Bio</a>
+          <a class="nav-link" href="#project">Projects</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Information
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Resume</a>
-            <a class="dropdown-item" href="#">Projects</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Contact</a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#socialtag">Social</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">More soon...</a>
@@ -62,24 +55,68 @@
   <!--About Section-->
   <div class="parallax"></div>
   <section id="about">
-    <h1>About Me</h1>
+    <br>
+    <br>
+    <br>
+    <h1 id="aboutTitle">About Me</h1>
+    <p id="aboutInfo">
+      Test! My nombre is Jose. Test!
+    </p>
     <br>
   </section>
-  <div class="parallax"></div>
 
   <!--Project Section-->
   <div class="parallax"></div>
   <section id="project">
-    <h1>Projects</h1>
+    <br>
+    <br>
+    <br>
+    <h1 id="projectTitle">Projects</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="project-item">
+          <span id="item-title">HTML & CSS Creature</span>
+          <a href="https://codepen.io/jgcaban/pen/QZPoqR">
+            <img class="project-images" src="Assets/Images/Projects/CSSCreature.png">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project-item">
+          <span id="item-title">HTML & CSS Static Store</span>
+          <a href="https://jgcaban.github.io/Static-StoreFront/">
+            <img class="project-images" src="Assets/Images/Projects/StoreFront.png">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project-item">
+          <span id="item-title">C# Console Challenges</span>
+          <a href="https://github.com/JGCaban/Gold-Badge-Challenges">
+            <img class="project-images" src="Assets/Images/Projects/CSharpChallenges.png">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project-item">
+          <span id="item-title">MVC Application</span>
+          <a href="https://recoilenthusiast.azurewebsites.net/">
+            <img class="project-images" src="Assets/Images/Projects/RecoilEnthusiast.png">
+          </a>
+        </div>
+      </div>
+    </div>
     <br>
   </section>
-  <div class="parallax"></div>
 
   <!--Contact Section-->
   <div class="parallax"></div>
   <section id="Contact">
     <div class="container">
-      <h2>Contact Me</h2>
+      <br>
+      <br>
+      <br>
+      <h2 id="contactTitle">Contact Me</h2>
       <form action="https://formspree.io/jose_g_caban@outlook.com" method="POST">
         <div class="form-group">
           <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
@@ -108,13 +145,13 @@
     </div>
     <br>
   </section>
-  <div class="parallax"></div>
 
   <!--Footer Section-->
+  <div class="parallax"></div>
   <footer>
     <div class="inner">
       <p>
-        <em id="footerName">Jose G. Caban</em>
+        <em id="socialtag">Jose G. Caban</em>
         <a id="footerEmail">jose_g_caban@outlook.com</a>
         <br>
         <a id="footerPhone">(317) 603-2404</a>

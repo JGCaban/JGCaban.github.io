@@ -1,5 +1,23 @@
-.h1, h1 {
+
+
+#projectTitle {
     font-size: 2.5rem;
-    font-family: var(--font-two);
+    font-family: var(--font-one);
     text-align: center;
+}
+
+.project-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#item-title {
+    color: black;
+    font-family: var(--font-two);
+}
+
+.project-images {
+    border-radius: 10px;
+    width: 295px;
+    height: 196px;
 }
