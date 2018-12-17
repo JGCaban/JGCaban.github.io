@@ -20,7 +20,8 @@
 }
 
 .project-images {
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
     width: 295px;
     height: 196px;
 }

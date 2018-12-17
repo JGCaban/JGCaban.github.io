@@ -6,27 +6,27 @@ body, html {
     max-width: 100px;
 }
 
+.parallaxInitial {
+  /* The image used */
+  background-image: url('https://cdn-images-1.medium.com/max/1200/0*ngXgBNNdx6iiWP8q.png');
+
+  /* Full height */
+  height: 20em; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
 .parallax {
     /* The image used */
     background-image: url('https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80');
   
     /* Full height */
     height: 25em; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
-  }
-
-  .parallaxInitial {
-    /* The image used */
-    background-image: url('http://houseofbots.com/images/news/3630/cover.png');
-  
-    /* Full height */
-    height: 20em; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
