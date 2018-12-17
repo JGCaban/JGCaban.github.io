@@ -1,6 +1,7 @@
 #navBar {
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 
 #nav-content{

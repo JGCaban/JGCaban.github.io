@@ -1,3 +1,7 @@
+#footer {
+    z-index: 2;
+}
+
 .inner {
     text-align: center;
     align-content: center;
@@ -7,7 +11,7 @@
 #socialtag {
     color: #4d4d4d;
     display: block;
-    font-family: var(--font-three);
+    font-family: var(--font-two);
     font-style: italic;
     font-weight: bolder;
     margin: 0 0 1em;
@@ -25,14 +29,8 @@
     font-weight: bold;
 }
 
-.facebook {
-    list-style: none;
-}
-.facebook-icon {
-    width: 25px;
-    height: 25px;
-    margin-right: 30px; 
-    margin-left: -2px;
+#socialRow {
+    text-align: center;
 }
 
 .linkedin {
@@ -41,9 +39,30 @@
 .linkedin-icon {
     width: 28px;
     height: 25px;
-    margin-right: 30px; 
-    margin-left: 1px;
+    /* margin-right: 30px; 
+    margin-left: 1px; */
 }
+
+.github {
+    list-style: none;
+}
+.github-icon {
+    width: 28px;
+    height: 28px;
+    /* margin-right: 30px; 
+    margin-left: 1px; */
+}
+
+.facebook {
+    list-style: none;
+}
+.facebook-icon {
+    width: 25px;
+    height: 25px;
+    /* margin-right: 30px; 
+    margin-left: -2px; */
+}
+
 
 .copyright {
     font-size: 10px;

@@ -53,15 +53,56 @@
   </div> -->
 
   <!--About Section-->
-  <div class="parallax"></div>
+  <div class="parallaxInitial"></div>
   <section id="about">
     <br>
     <br>
     <br>
     <h1 id="aboutTitle">About Me</h1>
+    <hr class="small">
     <p id="aboutInfo">
-      Test! My nombre is Jose. Test!
+      My name is Jose Caban and welcome to my site. I am a Software Developer, Emergency Manager, and a US Navy for 13-years. Grew up in a small community in San Sebastian, Puerto Rico. 
+      At age 18, I decided that life on an island was not for me and joined the US Navy with little to no practice speaking English. Majority of my time in the Navy was as Military Police as 
+      a Small Arms & Crew Served Weapons Instructor. During that time I had the priviledge to visit over 15 different countries and lived in Japan for 8 years. After being dicharged from 
+      from the military, I landed in Indiana where I had immediate family. I attended the University of Indianapolis to study Emergency Management and worked as an Operational Specialist for Simon
+      Property Group for a year before deciding that I needed some tech skills. I have always had an affinity towards tinkering with things and coding certainly helps that need. Thanks you for visiting
+      and please contact me if you would like to know more. 
     </p>
+    <hr class="small">
+    <h4 id="skills-title">Technical Skills</h4>
+    <p id="skills-text">
+      C#, ASP.NET, .NET Framework, HTML5, CSS3, Javascript, Bootstrap
+    </p>
+    <hr class="small">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="about-docs">
+          <a href="https://drive.google.com/open?id=1g3rDzOKx7vSWtmwiNqS5nOL_wyso4LiojGPNtkHz65k">
+            <img class="about-images" src="Assets/Images/resumeicon.png">
+          </a>
+          <br>
+          <span id="about-item">Resume</span>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="about-docs">
+          <a href="https://drive.google.com/open?id=1_7T3qV0SdlDD1gW7IiDo2wq44Ryca_aF">
+            <img class="about-images" src="Assets/Images/degree.jpg">
+          </a>
+          <br>
+          <span id="about-item">B.S. Degree</span>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="about-docs">
+          <a href="https://drive.google.com/open?id=1W8ALyXWvWkugmN9pGZ3QdsKka4HcknY_">
+            <img class="about-images" src="Assets/Images/degree.jpg">
+          </a>
+          <br>
+          <span id="about-item">.NET Bootcamp</span>
+        </div>
+      </div>
+    </div>
     <br>
   </section>
 
@@ -72,18 +113,21 @@
     <br>
     <br>
     <h1 id="projectTitle">Projects</h1>
+    <hr class="small">
     <div class="row">
       <div class="col-md-4">
         <div class="project-item">
-          <span id="item-title">HTML & CSS Creature</span>
-          <a href="https://codepen.io/jgcaban/pen/QZPoqR">
-            <img class="project-images" src="Assets/Images/Projects/CSSCreature.png">
+          <span id="item-title">MVC Application</span>
+          <br>
+          <a href="https://recoilenthusiast.azurewebsites.net/">
+            <img class="project-images" src="Assets/Images/Projects/RecoilEnthusiast.png">
           </a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="project-item">
           <span id="item-title">HTML & CSS Static Store</span>
+          <br>
           <a href="https://jgcaban.github.io/Static-StoreFront/">
             <img class="project-images" src="Assets/Images/Projects/StoreFront.png">
           </a>
@@ -92,16 +136,18 @@
       <div class="col-md-4">
         <div class="project-item">
           <span id="item-title">C# Console Challenges</span>
+          <br>
           <a href="https://github.com/JGCaban/Gold-Badge-Challenges">
             <img class="project-images" src="Assets/Images/Projects/CSharpChallenges.png">
           </a>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-12">
         <div class="project-item">
-          <span id="item-title">MVC Application</span>
-          <a href="https://recoilenthusiast.azurewebsites.net/">
-            <img class="project-images" src="Assets/Images/Projects/RecoilEnthusiast.png">
+          <span id="item-title">HTML & CSS Creature</span>
+          <br>
+          <a href="https://codepen.io/jgcaban/pen/QZPoqR">
+            <img class="project-images" src="Assets/Images/Projects/CSSCreature.png">
           </a>
         </div>
       </div>
@@ -117,6 +163,7 @@
       <br>
       <br>
       <h2 id="contactTitle">Contact Me</h2>
+      <hr class="small">
       <form action="https://formspree.io/jose_g_caban@outlook.com" method="POST">
         <div class="form-group">
           <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
@@ -147,27 +194,30 @@
   </section>
 
   <!--Footer Section-->
-  <div class="parallax"></div>
+  <div class="parallaxSocial"></div>
   <footer>
     <div class="inner">
       <p>
         <em id="socialtag">Jose G. Caban</em>
+        <hr class="small">
         <a id="footerEmail">jose_g_caban@outlook.com</a>
         <br>
         <a id="footerPhone">(317) 603-2404</a>
         <br>
       </p>
       <div class="social">
-        <ul>
-          <li class="linkedin">
+        <div class="Row" id="socialRow">
+          <span class="linkedin">
             <a href="https://www.linkedin.com/in/jose-caban-1850a666/"><img src="Assets/Images/In-2C-128px-TM.png"
                 class="linkedin-icon"></a>
-          </li>
-          </li>
-          <li class="facebook">
+          </span>
+          <span class="github">
+            <a href="https://github.com/JGCaban"><img src="Assets/Images/githubicon.png" class="github-icon"></a>
+          </span>
+          <span class="facebook">
             <a href="https://www.facebook.com/jose.caban.507"><img src="Assets/Images/f-ogo_RGB_HEX-100.png" class="facebook-icon"></a>
-          </li>
-        </ul>
+          </span>
+        </div>
       </div>
     </div>
     <br>
