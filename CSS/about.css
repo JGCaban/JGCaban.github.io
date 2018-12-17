@@ -12,6 +12,8 @@
     font-family: var(--font-two);
     font-size: 1.3em;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #skills-title {
