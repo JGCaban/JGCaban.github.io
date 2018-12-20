@@ -53,17 +53,6 @@
     margin-left: 1px; */
 }
 
-.facebook {
-    list-style: none;
-}
-.facebook-icon {
-    width: 25px;
-    height: 25px;
-    /* margin-right: 30px; 
-    margin-left: -2px; */
-}
-
-
 .copyright {
     font-size: 10px;
     font-family: var(--font-three);
