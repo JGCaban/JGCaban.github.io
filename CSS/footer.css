@@ -8,6 +8,18 @@
     color: firebrick;
 }
 
+#socialTitle {
+    font-size: 2.5rem;
+    color: black;
+    font-family: var(--font-one);
+    text-align: center;
+}
+
+#profileimage {
+    border-radius: 10px;
+    width: 180px;
+}
+
 #socialtag {
     color: #4d4d4d;
     display: block;
